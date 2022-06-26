@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,25 +22,35 @@
     <link rel="stylesheet" href="./styles/portfolio.css" />
     <title>Portfolio</title>
   </head>
+
   <body>
-    <header>
-      <nav>
-        <a href="./">WebStudio</a>
-        <ul>
-          <li>
-            <a href="./">Студія</a>
+    <header class="header">
+      <nav class="navigation">
+        <a href="./" class="logo">
+          <span class="logo-first">Web</span
+          ><span class="logo-second">Studio</span></a
+        >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./" class="nav-link">Студія</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфоліо</a>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link">Портфоліо</a>
           </li>
-          <li>
-            <a href="#">Контакти</a>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contact-list">
+        <li class="contact-item">
+          <a href="mailto:info@devstudio.com" class="contact-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -57,7 +74,7 @@
         </ul>
       </section>
       <section class="provide">
-        <h2>Чим ми займаємось</h2>
+        <h2 hidden>Чим ми займаємось</h2>
         <ul class="provide-list">
           <li class="provide-item">
             <img
@@ -162,24 +179,25 @@
         <img src="" alt="" />
       </section>
     </main>
-    <footer>
-      <a href="./">WebStudio</a>
-      <address>
-        <ul>
-          <li>
+    <footer class="footer">
+      <a href="./" class="footer-link"><span class="logo-third">Web</span
+          ><span class="logo-fourth">Studio</span></a>
+      <address class="footer-address">
+        <ul class="footer-list">
+          <li class="footer-item">
             <a
               href="https://www.google.com/maps/@49.8567549,24.0379418,10z?hl=uk"
               target="_blank"
-              rel="noopener nofollow noreferrer"
+              rel="noopener nofollow noreferrer" class="footer-link"
             >
               м. Львів, пр-т Тараса Шевченка, 25</a
             >
           </li>
+          <li class="footer-item">
+            <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
+          </li class="footer-item">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11 </a>
           </li>
         </ul>
       </address>

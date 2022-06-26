@@ -1,0 +1,15 @@
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  padding: 200px 452px 280px;
+  text-align: center;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  line-height: 50px;
+}
