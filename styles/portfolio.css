@@ -1,0 +1,42 @@
+/* Performance */
+
+
+
+.performance-list {
+  display: flex;
+  padding-left: 0;
+}
+
+.filter-btn {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--secondary-color);
+  background-color: var(--team-bg);
+
+  line-height: 1.62;
+  border-radius: 4px;
+}
+.filter-btn:hover {
+  color: var(--main-light);
+  background-color: var(--accent-color);
+}
+
+.provide-item {
+  margin-right: 8px;
+}
+
+
+.provide-title {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  line-height: 2;
+}
+
+.provide-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--main-color);
+}

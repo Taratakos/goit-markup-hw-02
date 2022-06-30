@@ -23,58 +23,62 @@
   </head>
 
   <body>
+    <!-- Header -->
+
     <header class="header">
       <nav class="navigation">
-        <a href="./" class="logo">
-          <span class="logo-first">Web</span
-          ><span class="logo-second">Studio</span></a
+        <a href="./" class="link logo"
+          >Web<span class="logo-mode-dark">Studio</span></a
         >
-        <ul class="nav-list">
+        <ul class="list nav-list">
           <li class="nav-item">
-            <a href="./" class="nav-link">Студія</a>
+            <a href="./" class="link nav-link">Студія</a>
           </li>
           <li class="nav-item">
-            <a href="./portfolio.html" class="nav-link">Портфоліо</a>
+            <a href="./portfolio.html" class="link nav-link current">Портфоліо</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Контакти</a>
+            <a href="#" class="link nav-link">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="contact-list">
+      <ul class="list contact-list">
         <li class="contact-item">
-          <a href="mailto:info@devstudio.com" class="contact-link"
+          <a href="mailto:info@devstudio.com" class="link contact-link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+        <li class="contact-item">
+          <a href="tel:+380961111111" class="link contact-link"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
+
     <main>
-      <section class="btn-group">
-        <ul class="btn-list">
-          <li class="btn-item">
-            <button type="button" class="btn">Все</button>
+      <!-- Performance -->
+      <section class="performance section">
+        <h2 class="section-title visually-hidden">Діяльність</h2>
+        <ul class="list performance-list">
+          <li class="performance-item">
+            <button type="button" class="button filter-btn">Все</button>
           </li>
-          <li class="btn-item">
-            <button type="button" class="btn">Веб-сайти</button>
+          <li class="performance-item">
+            <button type="button" class="button filter-btn">Веб-сайти</button>
           </li>
-          <li class="btn-item">
-            <button type="button" class="btn">Додатки</button>
+          <li class="performance-item">
+            <button type="button" class="button filter-btn">Додатки</button>
           </li>
-          <li class="btn-item">
-            <button type="button" class="btn">Дизайн</button>
+          <li class="performance-item">
+            <button type="button" class="button filter-btn">Дизайн</button>
           </li>
-          <li class="btn-item">
-            <button type="button" class="btn">Маркетинг</button>
+          <li class="performance-item">
+            <button type="button" class="button filter-btn">Маркетинг</button>
           </li>
         </ul>
-      </section>
-      <section class="provide">
-        <h2 hidden>Чим ми займаємось</h2>
-        <ul class="provide-list">
+
+        <ul class="list provide-list">
           <li class="provide-item">
             <img
               src="./images/laptop.jpg"
@@ -175,28 +179,36 @@
             <p class="provide-text">Додаток</p>
           </li>
         </ul>
-        <img src="" alt="" />
       </section>
     </main>
+
+    <!-- Footer -->
+
     <footer class="footer">
-      <a href="./" class="footer-link"><span class="logo-third">Web</span
-          ><span class="logo-fourth">Studio</span></a>
-      <address class="footer-address">
-        <ul class="footer-list">
-          <li class="footer-item">
+      <a href="./" class="link logo"
+        >Web<span class="logo-mode-light">Studio</span></a
+      >
+      <address>
+        <ul class="list footer-list">
+          <li>
             <a
+              class="link footer-link"
               href="https://www.google.com/maps/@49.8567549,24.0379418,10z?hl=uk"
               target="_blank"
-              rel="noopener nofollow noreferrer" class="footer-link"
+              rel="noopener nofollow noreferrer"
             >
               м. Львів, пр-т Тараса Шевченка, 25</a
             >
           </li>
-          <li class="footer-item">
-            <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
-          </li class="footer-item">
           <li>
-            <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11 </a>
+            <a class="link footer-link-shadow" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link footer-link-shadow" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
